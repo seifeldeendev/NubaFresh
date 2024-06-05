@@ -52,6 +52,7 @@ function changeLanguage(language) {
 
 function loadData() {
   fetch("../data.json")
+  // fetch("../data.json")
     .then((response) => response.json())
     .then((data) => {
       const maintextH1 = document.getElementById("main-text-h1");
