@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="نوبة فريش | NubaFresh - الموقع الأول لتصدير الفواكه والخضروات الطازجة. اكتشف أفضل المنتجات الزراعية الطازجة التي يتم تصديرها بعناية لتلبية احتياجاتك الغذائية. نوبة فريش تضمن لك الجودة العالية والطعم الطازج مباشرة من المزرعة."
+    />
+    <meta
+      name="keywords"
+      content="NubaFresh, نوبة فريش, تصدير فواكه, تصدير خضروات, منتجات زراعية طازجة, فواكه طازجة, خضروات طازجة, جودة عالية, طعم طازج, من المزرعة إلى الطاولة"
+    />
+
+    <title>NubaFresh</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../new.css" />
+    <link rel="shortcut icon" href="../imgs/icon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&family=Cairo:wght@200;300;400;500&family=M+PLUS+1+Code:wght@100;200;300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- CSS -->
+  </head>
+
+  <body dir="rtl">
+    <span class="scroll-up active"><i class="fad fa-angle-double-up"></i></span>
+    <header>
+      <div class="continer">
+        <div class="header-content">
+          <a href="index.html">
+            <img src="../imgs/nubalogo.png" alt="logo"
+          /></a>
+          <nav class="normal-nav">
+            <ul id="normal-nav-ul"></ul>
+          </nav>
+          <span class="toogle-i"><i class="fas fa-bars"></i></span>
+        </div>
+      </div>
+    </header>
+
+    <div class="phone-list">
+      <span class="close-x"><i class="fas fa-times"></i></span>
+      <nav class="nav-phone" id="nav-phone-ul"></nav>
+    </div>
+    <main class="z-section">
+      <span class="shape sh1"></span>
+      <div class="continer">
+        <div class="main-contant">
+          <div class="app-main-sec">
+            <div class="phone-div-flow-imgs">
+              <img
+                class="food-floating-img food1"
+                src="../imgs/food/1.png"
+                alt="food img"
+              />
+              <img
+                class="food-floating-img food2"
+                src="../imgs/food/15.png"
+                alt="food img"
+              />
+              <img
+                class="food-floating-img food3"
+                src="../imgs/food/5.png"
+                alt="food img"
+              />
+
+              <img
+                alt="phone app"
+                class="mobile-img"
+                id="mobile-img"
+                src="../imgs/phone.png"
+                alt="app-phone"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              />
+
+              <img
+                src="../imgs/back.png"
+                class="b-img"
+                alt="b-img"
+                alt="b img"
+              />
+            </div>
+          </div>
+          <div class="main-text">
+            <h1
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              id="main-text-h1"
+            ></h1>
+            <p data-aos="fade-up" data-aos-duration="1200" id="main-text-p"></p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- <section class="fsection z-section"> -->
+    <div class="video-slider" id="video-slider">
+      <div id="next" onclick="next()">
+        <img
+          src="../imgs/left-arrow.png"
+          alt="left-arrow"
+          height="30px"
+          width="30px"
+        />
+      </div>
+      <div id="prev" onclick="prev()">
+        <img
+          src="../imgs/right-arrow.png"
+          alt="right-arrow"
+          height="30px"
+          width="30px"
+        />
+      </div>
+    </div>
+    <section class="fsection z-section">
+      <span class="shape sh3"></span>
+      <div class="continer">
+        <div class="features" id="features"></div>
+      </div>
+    </section>
+
+    <section class="fsection z-section">
+      <span class="shape sh3"></span>
+      <div class="foods-header-text"><h1 id="SeconedSectionTitle"></h1></div>
+      <div class="continer">
+        <div class="Foods" id="Foods"></div>
+      </div>
+    </section>
+
+    <footer>
+      <h1 id="footerHeaderTitle"></h1>
+      <a href="index.html">
+        <img class="icon-logo-footer" src="../imgs/n.png" alt="iconLogo" />
+      </a>
+      <div class="flags">
+        <h3 id="chooseLang"></h3>
+        <div class="lastSection">
+        <a href="../ar/index.html"><span class="fi fi-eg"></span></a>
+        <a href="../en/index.html"><span class="fi fi-gb"></span></a>
+        <a href="../de/index.html"><span class="fi fi-de"></span></a>
+        <a href="../es/index.html"><span class="fi fi-es"></span></a>
+        <a href="../fr/index.html"><span class="fi fi-fr"></span></a>
+        <a href="../pt/index.html"><span class="fi fi-pt"></span></a>
+        <a href="../ja/index.html"><span class="fi fi-jp"></span></a>
+        <a href="../zh/index.html"><span class="fi fi-cn"></span></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      let currentLanguage = "pt";
+    </script>
+    <script src="../main.js"></script>
+    <!-- JS -->
+  </body>
+</html>
