@@ -174,7 +174,7 @@
         "subtitleZh": "我们提供快速高效的交付服务，以确保我们的新鲜产品尽快送达给您。",
         "titleJa": "迅速な配達",
         "subtitleJa": "私たちは迅速かつ効率的な配達サービスを提供し、できるだけ早く新鮮な商品がお客様のもとに届くようにします.",
-        "imgUrl": "../imgs/icons/distribution.png"
+        "imgUrl": "https://seifeldeendev.github.io/NubaFresh/imgs//icons/distribution.png"
       },
       {
         "titleAr": "منتجات طبيعية 100%",
@@ -193,7 +193,7 @@
         "subtitleZh": "我们所有的新鲜水果和蔬菜都是Nuba Fresh的100%天然产品。",
         "titleJa": "100％自然製品",
         "subtitleJa": "Nuba Freshのすべての新鮮な果物と野菜は100％天然製品です。",
-        "imgUrl": "../imgs/icons/supplies.png"
+        "imgUrl": "https://seifeldeendev.github.io/NubaFresh/imgs//icons/supplies.png"
       },
       {
         "titleAr": "دائما أفضل المنتجات ذات الجودة",
@@ -212,7 +212,7 @@
         "subtitleZh": "我们致力于为客户提供始终如一的最优质产品。",
         "titleJa": "常に最高品質の製品",
         "subtitleJa": "私たちは常にお客様に最高品質の製品を提供することをお約束します。",
-        "imgUrl": "../imgs/icons/high-quality.png"
+        "imgUrl": "https://seifeldeendev.github.io/NubaFresh/imgs//icons/high-quality.png"
       },
       {
         "titleAr": "التعبئة والنقل",
@@ -231,7 +231,7 @@
         "subtitleZh": "包装、包装和运输按照国际质量和卫生标准的规定进行。",
         "titleJa": "包装と輸送",
         "subtitleJa": "包装、取り扱い、輸送は、国際的な品質と衛生基準に従って行われます。",
-        "imgUrl": "../imgs/icons/search.png"
+        "imgUrl": "https://seifeldeendev.github.io/NubaFresh/imgs//icons/search.png"
       },
       {
         "titleAr": "أسعار لا تقبل المنافسة",
@@ -250,7 +250,7 @@
         "subtitleZh": "我们提供无与伦比的竞争价格，为我们的客户提供最佳性价比。",
         "titleJa": "破格の価格",
         "subtitleJa": "私たちは、お客様に最高の価値を提供するために、破格の競争価格を提供しています。",
-        "imgUrl": "../imgs/icons/cash.png"
+        "imgUrl": "https://seifeldeendev.github.io/NubaFresh/imgs//icons/cash.png"
       }
     ],
     "food": [
@@ -272,7 +272,7 @@
         "descriptionJa": "ネーブルオレンジは、厚い皮と甘い味が特徴のオレンジの一種です。",
         "descriptionPt": "A laranja navel é um tipo de laranja caracterizada pela sua casca grossa e sabor doce.",
         "descriptionFr": "L'orange navel est un type d'orange caractérisé par son écorce épaisse et son goût sucré.",
-        "img": "../imgs/food/1.png"
+        "img": "https://seifeldeendev.github.io/NubaFresh/imgs//food/1.png"
       },
       {
         "id": 2,
@@ -292,7 +292,7 @@
         "descriptionJa": "バレンシアオレンジは、ジューシーなオレンジの一種で、ジュースを作るのに最適です。",
         "descriptionPt": "A laranja Valencia é um tipo de laranja suculenta ideal para fazer sucos.",
         "descriptionFr": "L'orange Valencia est un type d'orange juteux idéal pour faire des jus.",
-        "img": "../imgs/food/2.png"
+        "img": "https://seifeldeendev.github.io/NubaFresh/imgs//food/2.png"
       },
       {
         "id": 3,
@@ -312,7 +312,7 @@
         "descriptionJa": "マンダリンは、剥きやすいことで知られる小さな甘い柑橘類です。",
         "descriptionPt": "A mandarina é um tipo de fruta cítrica pequena e doce conhecida por ser fácil de descascar.",
         "descriptionFr": "La mandarine est un type de petit agrume sucré connu pour être facile à peler.",
-        "img": "../imgs/food/3.png"
+        "img": "https://seifeldeendev.github.io/NubaFresh/imgs//food/3.png"
       },
       {
         "id": 4,
@@ -332,7 +332,7 @@
         "descriptionJa": "グレープフルーツは、さわやかでわずかに苦い味の大きな柑橘類です。",
         "descriptionPt": "A toranja é um tipo de fruta cítrica grande com um sabor refrescante e ligeiramente amargo.",
         "descriptionFr": "Le pamplemousse est un type de gros agrume avec une saveur rafraîchissante et légèrement amère.",
-        "img": "../imgs/food/4.png"
+        "img": "https://seifeldeendev.github.io/NubaFresh/imgs//food/4.png"
       },
       {
         "id": 5,
@@ -352,7 +352,7 @@
         "descriptionJa": "ざくろは、ジュースと種子が豊富で、多くの健康上の利点で知られています。",
         "descriptionPt": "A romã é uma fruta rica em suco e sementes, conhecida por seus inúmeros benefícios para a saúde.",
         "descriptionFr": "La grenade est un fruit riche en jus et en graines, connu pour ses nombreux bienfaits pour la santé.",
-        "img": "../imgs/food/5.png"
+        "img": "https://seifeldeendev.github.io/NubaFresh/imgs//food/5.png"
       },
       {
         "id": 6,
@@ -372,7 +372,7 @@
         "descriptionJa": "いちごは、デザートや飲み物に使われる美味しい赤い果物です。",
         "descriptionPt": "Morango é uma deliciosa fruta vermelha usada em sobremesas e bebidas.",
         "descriptionFr": "La fraise est un délicieux fruit rouge utilisé dans les desserts et les boissons.",
-        "img": "../imgs/food/6.png"
+        "img": "https://seifeldeendev.github.io/NubaFresh/imgs//food/6.png"
       },
       {
         "id": 7,
@@ -392,7 +392,7 @@
         "descriptionJa": "レモンは、料理やジュース作りに一般的に使用される柑橘類の一種です。",
         "descriptionPt": "O limão é um tipo de fruta cítrica comumente usada na culinária e na fabricação de sucos.",
         "descriptionFr": "Le citron est un type de fruit citronné couramment utilisé en cuisine et pour faire des jus.",
-        "img": "../imgs/food/7.png"
+        "img": "https://seifeldeendev.github.io/NubaFresh/imgs//food/7.png"
       },
       {
         "id": 8,
@@ -412,7 +412,7 @@
         "descriptionJa": "マンゴーは、新鮮な状態で食べるかジュースにするのに最適な甘い熱帯果物です。",
         "descriptionPt": "Manga é uma fruta tropical doce perfeita para comer fresca ou em sucos.",
         "descriptionFr": "La mangue est un fruit tropical sucré parfait pour être consommé frais ou en jus.",
-        "img": "../imgs/food/8.png"
+        "img": "https://seifeldeendev.github.io/NubaFresh/imgs//food/8.png"
       },
       {
         "id": 9,
@@ -432,7 +432,7 @@
         "descriptionJa": "ももは柔らかく甘い果物で、デザートやサラダに使用されます。",
         "descriptionPt": "O pêssego é uma fruta macia e doce usada em sobremesas e saladas.",
         "descriptionFr": "La pêche est un fruit doux et sucré utilisé dans les desserts et les salades.",
-        "img": "../imgs/food/9.png"
+        "img": "https://seifeldeendev.github.io/NubaFresh/imgs//food/9.png"
       },
       {
         "id": 10,
@@ -452,7 +452,7 @@
         "descriptionJa": "レッドグローブぶどうは、甘く独特な風味を持つ大きな赤いぶどうの一種です。",
         "descriptionPt": "Uva Red Globe é um tipo de uva vermelha grande com um sabor doce e distinto.",
         "descriptionFr": "Le raisin Red Globe est un type de gros raisin rouge au goût sucré et distinctif.",
-        "img": "../imgs/food/10.png"
+        "img": "https://seifeldeendev.github.io/NubaFresh/imgs//food/10.png"
       },
       {
         "id": 11,
@@ -472,7 +472,7 @@
         "descriptionJa": "種なしホワイトぶどうは、スナックとして最適な甘いぶどうの一種です。",
         "descriptionPt": "Uva branca sem sementes é um tipo de uva doce perfeita como um lanche.",
         "descriptionFr": "Le raisin blanc sans pépins est un type de raisin sucré parfait comme collation.",
-        "img": "../imgs/food/11.png"
+        "img": "https://seifeldeendev.github.io/NubaFresh/imgs//food/11.png"
       },
       {
         "id": 12,
@@ -492,7 +492,7 @@
         "descriptionJa": "黒ぶどうは、豊かな味の濃い色のぶどうの一種です。",
         "descriptionPt": "Uva preta é um tipo de uva escura com sabor rico.",
         "descriptionFr": "Le raisin noir est un type de raisin foncé au goût riche.",
-        "img": "../imgs/food/12.png"
+        "img": "https://seifeldeendev.github.io/NubaFresh/imgs//food/12.png"
       },
       {
         "id": 13,
@@ -512,7 +512,7 @@
         "descriptionJa": "フレームぶどうは、甘い味の小さな赤ぶどうの一種です。",
         "descriptionPt": "Uva Flame é um tipo de uva vermelha pequena com sabor doce.",
         "descriptionFr": "Le raisin Flame est un type de petit raisin rouge avec une saveur sucrée.",
-        "img": "../imgs/food/13.png"
+        "img": "https://seifeldeendev.github.io/NubaFresh/imgs//food/13.png"
       },
       {
         "id": 14,
@@ -532,7 +532,7 @@
         "descriptionJa": "種なし赤ぶどうは、種のない甘い赤ぶどうの一種です。",
         "descriptionPt": "Uva vermelha sem sementes é um tipo de uva vermelha doce sem sementes.",
         "descriptionFr": "Le raisin rouge sans pépins est un type de raisin rouge sucré sans pépins.",
-        "img": "../imgs/food/14.png"
+        "img": "https://seifeldeendev.github.io/NubaFresh/imgs//food/14.png"
       },
       {
         "id": 15,
@@ -552,7 +552,7 @@
         "descriptionJa": "じゃがいもは、調理に使用される多目的な根菜の一種です。",
         "descriptionPt": "Batata é um tipo de vegetal de raiz versátil usado na culinária.",
         "descriptionFr": "La pomme de terre est un type de légume-racine polyvalent utilisé en cuisine.",
-        "img": "../imgs/food/15.png"
+        "img": "https://seifeldeendev.github.io/NubaFresh/imgs//food/15.png"
       },
       {
         "id": 16,
@@ -572,7 +572,7 @@
         "descriptionJa": "唐辛子は、辛く独特な味の唐辛子の一種です。",
         "descriptionPt": "Pimenta é um tipo de pimenta com um sabor picante e distinto.",
         "descriptionFr": "Le piment est un type de poivre avec une saveur piquante et distinctive.",
-        "img": "../imgs/food/16.png"
+        "img": "https://seifeldeendev.github.io/NubaFresh/imgs//food/16.png"
       },
       {
         "id": 17,
@@ -592,7 +592,7 @@
         "descriptionJa": "さつまいもは、多くのレシピで使用される甘い根菜です。",
         "descriptionPt": "Batata doce é um vegetal de raiz doce usado em muitas receitas.",
         "descriptionFr": "La patate douce est un légume-racine sucré utilisé dans de nombreuses recettes.",
-        "img": "../imgs/food/17.png"
+        "img": "https://seifeldeendev.github.io/NubaFresh/imgs//food/17.png"
       },
       {
         "id": 18,
@@ -612,7 +612,7 @@
         "descriptionJa": "乾燥ニンニクは、料理に広く使用される香辛料の一種です。",
         "descriptionPt": "Alho seco é um tipo de especiaria amplamente usado na culinária.",
         "descriptionFr": "L'ail séché est un type d'épice largement utilisé en cuisine.",
-        "img": "../imgs/food/18.png"
+        "img": "https://seifeldeendev.github.io/NubaFresh/imgs//food/18.png"
       },
       {
         "id": 19,
@@ -632,7 +632,7 @@
         "descriptionJa": "赤と金の玉ねぎは、独特な味を加えるために料理に使用される2種類のタマネギです。",
         "descriptionPt": "Cebola vermelha e dourada são dois tipos de cebolas usadas na culinária para adicionar um sabor distinto.",
         "descriptionFr": "L'oignon rouge et doré sont deux types d'oignons utilisés en cuisine pour ajouter une saveur distinctive.",
-        "img": "../imgs/food/19.png"
+        "img": "https://seifeldeendev.github.io/NubaFresh/imgs//food/19.png"
       },
       {
         "id": 20,
@@ -652,7 +652,7 @@
         "descriptionJa": "アーティチョークは、食用の葉と独特の味で知られる野菜の一種です。",
         "descriptionPt": "Alcachofra é um tipo de vegetal conhecido por suas folhas comestíveis e sabor único.",
         "descriptionFr": "L'artichaut est un type de légume connu pour ses feuilles comestibles et son goût unique.",
-        "img": "../imgs/food/20.png"
+        "img": "https://seifeldeendev.github.io/NubaFresh/imgs//food/20.png"
       },
       {
         "id": 21,
@@ -672,7 +672,7 @@
         "descriptionJa": "インゲン豆は、多くの料理に適した繊維が豊富な野菜の一種です。",
         "descriptionPt": "Feijão verde é um tipo de vegetal rico em fibras e adequado para muitos pratos.",
         "descriptionFr": "Les haricots verts sont un type de légume riche en fibres et adapté à de nombreux plats.",
-        "img": "../imgs/food/21.png"
+        "img": "https://seifeldeendev.github.io/NubaFresh/imgs//food/21.png"
       },
       {
         "id": 22,
@@ -692,7 +692,7 @@
         "descriptionJa": "ブロッコリーは、ビタミンやミネラルが豊富な野菜の一種で、多くの料理に使用されています。",
         "descriptionPt": "Brócolis é um tipo de vegetal rico em vitaminas e minerais, e é usado em muitos pratos.",
         "descriptionFr": "Le brocoli est un type de légume riche en vitamines et minéraux, et est utilisé dans de nombreux plats.",
-        "img": "../imgs/food/22.png"
+        "img": "https://seifeldeendev.github.io/NubaFresh/imgs//food/22.png"
       },
       {
         "id": 23,
@@ -712,7 +712,7 @@
         "descriptionJa": "アイスバーグレタスは、サラダやサンドイッチに最適なカリカリのレタスです。",
         "descriptionPt": "Alface iceberg é um tipo de alface crocante, perfeita para saladas e sanduíches.",
         "descriptionFr": "La laitue iceberg est un type de laitue croquante, parfaite pour les salades et les sandwiches.",
-        "img": "../imgs/food/23.png"
+        "img": "https://seifeldeendev.github.io/NubaFresh/imgs//food/23.png"
       },
       {
         "id": 24,
@@ -732,7 +732,7 @@
         "descriptionJa": "カリフラワーは、栄養豊富な十字花科の野菜で、多くのレシピで使用されています。",
         "descriptionPt": "Couve-flor é um tipo de vegetal crucífero rico em nutrientes e é usado em muitas receitas.",
         "descriptionFr": "Le chou-fleur est un type de légume crucifère riche en nutriments, et est utilisé dans de nombreuses recettes.",
-        "img": "../imgs/food/24.png"
+        "img": "https://seifeldeendev.github.io/NubaFresh/imgs//food/24.png"
       }
     ]
   }
