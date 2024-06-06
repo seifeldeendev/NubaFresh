@@ -10,22 +10,6 @@ closex.addEventListener("click", function () {
   phonelist.classList.remove("active");
 });
 
-let scrollUp = document.querySelector(".scroll-up");
-
-window.addEventListener("scroll", function () {
-  if (window.scrollY > 600) {
-    scrollUp.classList.add("active");
-  } else {
-    scrollUp.classList.remove("active");
-  }
-});
-scrollUp.addEventListener("click", function () {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth",
-  });
-});
-
 let index = 0;
 
 function next() {
