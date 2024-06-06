@@ -367,7 +367,9 @@ header nav ul a.active::before {
   filter: blur(20px);
 }
 
-
+.sticky{
+  color: var(--alternative-text-color);
+}
 /* header -------------------------------- */
 
 /* Main Start */
