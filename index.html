@@ -58,12 +58,58 @@
   </head>
 
   <body dir="rtl">
+    <span class="scroll-up"><i class="fad fa-angle-double-up"></i></span>
+    <div class="language-selector">
+      <div class="continer">
+        <span class="language-text" id="chooseLang">اختار لغتك المفضلة</span>
+        <div class="flags">
+          <a href="../ar/"><span class="fi fi-eg"></span></a>
+          <a href="../en/"><span class="fi fi-gb"></span></a>
+          <a href="../es/"><span class="fi fi-es"></span></a>
+          <a href="../de/"><span class="fi fi-de"></span></a>
+          <a href="../it/"><span class="fi fi-it"></span></a>
+          <a href="../fr/"><span class="fi fi-fr"></span></a>
+          <a href="../pt/"><span class="fi fi-pt"></span></a>
+        </div>
+      </div>
+    </div>
     <header>
       <div class="continer">
         <div class="header-content">
-          <a href="index.html"> <img src="imgs/nubalogo.png" alt="logo" /></a>
+          <a href="index.html">
+            <img class="logo" src="imgs/nubalogo.png" alt="logo"
+          /></a>
           <nav class="normal-nav">
-            <ul id="normal-nav-ul"></ul>
+            <ul id="normal-nav-ul">
+              <li><a id="hyperLink" href="about.html">من نحن؟</a></li>
+              <li class="dropdown">
+                <a id="hyperLink" href="#"
+                  >منتجاتنا
+                  <img
+                    style="transform: rotate(270deg); margin-right: 5px"
+                    src="imgs/left-arrow.png"
+                    alt="arrow"
+                    height="10px"
+                    width="10px"
+                /></a>
+                <ul class="dropdown-content">
+                  <li><a href="citrus.html">الحمضيات</a></li>
+                  <li><a href="fruits.html">الفواكه</a></li>
+                  <li><a href="vegetables.html">الخضروات</a></li>
+                  <li><a href="herbs.html">الأعشاب</a></li>
+                </ul>
+              </li>
+              <li><a id="hyperLink" href="calendar.html">التقويم</a></li>
+              <li>
+                <a id="hyperLink" href="quality-assurance.html">ضمان الجودة</a>
+              </li>
+              <li>
+                <a id="hyperLink" href="packing-house.html">التعبئة و التغليف</a>
+              </li>
+              <li><a id="hyperLink" href="gallery.html">معرض الصور</a></li>
+              <li><a id="hyperLink" href="markets.html">الأسواق</a></li>
+              <li><a id="hyperLink" href="contact.html">اتّصل بنا</a></li>
+            </ul>
           </nav>
           <span class="toogle-i"><i class="fas fa-bars"></i></span>
         </div>
@@ -72,7 +118,32 @@
 
     <div class="phone-list">
       <span class="close-x"><i class="fas fa-times"></i></span>
-      <nav class="nav-phone" id="nav-phone-ul"></nav>
+      <nav class="nav-phone" id="nav-phone-ul">
+        <li><a id="hyperLink" href="about.html">من نحن؟</a></li>
+        <li class="dropdown">
+          <a id="hyperLink" href="#"
+            >منتجاتنا
+            <img
+              style="transform: rotate(270deg); margin-right: 5px"
+              src="imgs/left-arrow.png"
+              alt="arrow"
+              height="10px"
+              width="10px"
+          /></a>
+          <ul class="dropdown-content">
+            <li><a href="citrus.html">الحمضيات</a></li>
+            <li><a href="fruits.html">الفواكه</a></li>
+            <li><a href="vegetables.html">الخضروات</a></li>
+            <li><a href="herbs.html">الأعشاب</a></li>
+          </ul>
+        </li>
+        <li><a id="hyperLink" href="calendar.html">التقويم</a></li>
+        <li><a id="hyperLink" href="quality-assurance.html">ضمان الجودة</a></li>
+        <li><a id="hyperLink" href="packing-house.html">التعبئة و التغليف</a></li>
+        <li><a id="hyperLink" href="gallery.html">معرض الصور</a></li>
+        <li><a id="hyperLink" href="markets.html">الأسواق</a></li>
+        <li><a id="hyperLink" href="contact.html">اتّصل بنا</a></li>
+      </nav>
     </div>
     <main class="z-section">
       <span class="shape sh1"></span>
@@ -111,69 +182,448 @@
             </div>
           </div>
           <div class="main-text">
-            <h1
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              id="main-text-h1"
-            ></h1>
-            <p data-aos="fade-up" data-aos-duration="1200" id="main-text-p"></p>
+            <h1 data-aos="fade-up" data-aos-duration="1000" id="main-text-h1">
+              نوبا فريش: منتجات طبيعية لنمط حياة صحيّ
+            </h1>
+            <p data-aos="fade-up" data-aos-duration="1200" id="main-text-p">
+              نسعى دائمًا لتحقيق أعلى معايير الجودة في الخدمات التي نقدمها
+            </p>
           </div>
         </div>
       </div>
     </main>
-
-    <!-- <section class="fsection z-section"> -->
     <div class="video-slider" id="video-slider">
-      <div id="next" onclick="next()">
-        <img
-          src="imgs/left-arrow.png"
-          alt="left-arrow"
-          height="30px"
-          width="30px"
-        />
+      <div class="slide-container active">
+        <div class="slide">
+          <div class="content"><p>غذاء آمن، صحة وحياة أفضل</p></div>
+          <video
+            src="https://c.top4top.io/m_3078iebg53.mp4"
+            height="35%"
+            width="100%"
+            autoplay
+            loop
+            muted
+          />
+        </div>
       </div>
-      <div id="prev" onclick="prev()">
-        <img
-          src="imgs/right-arrow.png"
-          alt="right-arrow"
-          height="30px"
-          width="30px"
-        />
+      <div class="slide-container">
+        <div class="slide">
+          <div class="content"><p>الجودة هي هدفنا الرئيسي واهتمامنا</p></div>
+          <video
+            src="https://a.top4top.io/m_3078rbdui1.mp4"
+            height="35%"
+            width="100%"
+            autoplay
+            loop
+            muted
+          />
+        </div>
+      </div>
+      <div class="slide-container">
+        <div class="slide">
+          <div class="content">
+            <p>إنتاج وتصدير المنتجات الزراعية الطازجة ذات الجودة الممتازة</p>
+          </div>
+          <video
+            src="https://d.top4top.io/m_3078q9uqn4.mp4"
+            height="35%"
+            width="100%"
+            autoplay
+            loop
+            muted
+          />
+        </div>
+      </div>
+      <div class="slide-container">
+        <div class="slide">
+          <div class="content"><p>يتم إنتاجه بشكل طبيعي من مزارعنا</p></div>
+          <video
+            src="https://e.top4top.io/m_3078paitu5.mp4"
+            height="35%"
+            width="100%"
+            autoplay
+            loop
+            muted
+          />
+        </div>
       </div>
     </div>
     <section class="fsection z-section">
       <span class="shape sh3"></span>
       <div class="continer">
-        <div class="features" id="features"></div>
+        <div class="features" id="features">
+          <div
+            class="features-card"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <img
+              src="https://seifeldeendev.github.io/NubaFresh/imgs//icons/supplies.png"
+              alt="منتجات طبيعية 100%"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            />
+            <h1 data-aos="fade-up" data-aos-duration="1300">
+              منتجات طبيعية 100%
+            </h1>
+            <p data-aos="fade-up" data-aos-duration="1400">
+              جميع الفواكه والخضروات الطازجة لدينا في نوبة فريش هي منتجات طبيعية
+              100%.
+            </p>
+          </div>
+          <div
+            class="features-card"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <img
+              src="https://seifeldeendev.github.io/NubaFresh/imgs//icons/high-quality.png"
+              alt="دائما أفضل المنتجات ذات الجودة"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            />
+            <h1 data-aos="fade-up" data-aos-duration="1300">
+              دائما أفضل المنتجات ذات الجودة
+            </h1>
+            <p data-aos="fade-up" data-aos-duration="1400">
+              نحن ملتزمون بتوفير أفضل المنتجات ذات الجودة العالية لعملائنا.
+            </p>
+          </div>
+          <div
+            class="features-card"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <img
+              src="https://seifeldeendev.github.io/NubaFresh/imgs//icons/search.png"
+              alt="التعبئة والنقل"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            />
+            <h1 data-aos="fade-up" data-aos-duration="1300">التعبئة والنقل</h1>
+            <p data-aos="fade-up" data-aos-duration="1400">
+              التعبئة والتغليف والنقل الصحي والسلامة وفقًا للإجراءات والشروط
+              المحددة لمعايير الجودة والنظافة الدولية.
+            </p>
+          </div>
+          <div
+            class="features-card"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <img
+              src="imgs/icons/food.png"
+              alt="الأطعمة غير المعدلة وراثيًا"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            />
+            <h1 data-aos="fade-up" data-aos-duration="1300">
+              الأطعمة غير المعدلة وراثيًا
+            </h1>
+            <p data-aos="fade-up" data-aos-duration="1400">
+              نؤكد أن أياً من منتجات نوبا فريش الطازجة لا يحتوي على مواد جينية
+              تم التلاعب بها بشكل مصطنع في المختبرات من خلال الهندسة الوراثية.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
 
     <section class="fsection z-section">
-      <span class="shape sh3"></span>
-      <div class="foods-header-text"><h1 id="SeconedSectionTitle"></h1></div>
+      <div class="foods-header-text">
+        <h1 id="SeconedSectionTitle">منتجاتنا</h1>
+      </div>
       <div class="continer">
-        <div class="Foods" id="Foods"></div>
+        <div class="Foods" id="Foods">
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-1.html"
+              ><img
+                src="https://seifeldeendev.github.io/NubaFresh/imgs//food/1.png"
+                alt="برتقال بسرة"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">
+                برتقال بسرة
+              </h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-2.html"
+              ><img
+                src="https://seifeldeendev.github.io/NubaFresh/imgs//food/2.png"
+                alt="برتقال فالنسيا"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">
+                برتقال فالنسيا
+              </h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-3.html"
+              ><img
+                src="https://seifeldeendev.github.io/NubaFresh/imgs//food/3.png"
+                alt="ماندرين"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">ماندرين</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-4.html"
+              ><img
+                src="https://seifeldeendev.github.io/NubaFresh/imgs//food/4.png"
+                alt="جريب فروت"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">جريب فروت</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-5.html"
+              ><img
+                src="https://seifeldeendev.github.io/NubaFresh/imgs//food/5.png"
+                alt="رمان"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">رمان</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-6.html"
+              ><img
+                src="https://seifeldeendev.github.io/NubaFresh/imgs//food/6.png"
+                alt="فراولة"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">فراولة</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-7.html"
+              ><img
+                src="https://seifeldeendev.github.io/NubaFresh/imgs//food/7.png"
+                alt="ليمون أصفر"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">ليمون أصفر</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-8.html"
+              ><img
+                src="https://seifeldeendev.github.io/NubaFresh/imgs//food/8.png"
+                alt="مانجو"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">مانجو</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-9.html"
+              ><img
+                src="https://seifeldeendev.github.io/NubaFresh/imgs//food/9.png"
+                alt="خوخ"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">خوخ</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-10.html"
+              ><img
+                src="https://seifeldeendev.github.io/NubaFresh/imgs//food/10.png"
+                alt="عنب ريد جلوب"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">
+                عنب ريد جلوب
+              </h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-11.html"
+              ><img
+                src="https://seifeldeendev.github.io/NubaFresh/imgs//food/11.png"
+                alt="عنب أبيض بدون بذور"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">
+                عنب أبيض بدون بذور
+              </h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-12.html"
+              ><img
+                src="https://seifeldeendev.github.io/NubaFresh/imgs//food/12.png"
+                alt="عنب أسود"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">عنب أسود</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-13.html"
+              ><img
+                src="https://seifeldeendev.github.io/NubaFresh/imgs//food/13.png"
+                alt="عنب فلام"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">عنب فلام</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-14.html"
+              ><img
+                src="https://seifeldeendev.github.io/NubaFresh/imgs//food/14.png"
+                alt="عنب قرمزي بدون بذور"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">
+                عنب قرمزي بدون بذور
+              </h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-15.html"
+              ><img
+                src="https://seifeldeendev.github.io/NubaFresh/imgs//food/15.png"
+                alt="بطاطا"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">بطاطا</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-16.html"
+              ><img
+                src="https://seifeldeendev.github.io/NubaFresh/imgs//food/16.png"
+                alt="فلفل حار"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">فلفل حار</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-17.html"
+              ><img
+                src="https://seifeldeendev.github.io/NubaFresh/imgs//food/17.png"
+                alt="بطاطا حلوة"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">بطاطا حلوة</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-18.html"
+              ><img
+                src="https://seifeldeendev.github.io/NubaFresh/imgs//food/18.png"
+                alt="ثوم جاف"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">ثوم جاف</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-19.html"
+              ><img
+                src="https://seifeldeendev.github.io/NubaFresh/imgs//food/19.png"
+                alt="بصل أحمر وذهبي"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">
+                بصل أحمر وذهبي
+              </h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-20.html"
+              ><img
+                src="https://seifeldeendev.github.io/NubaFresh/imgs//food/20.png"
+                alt="خرشوف"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">خرشوف</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-21.html"
+              ><img
+                src="https://seifeldeendev.github.io/NubaFresh/imgs//food/21.png"
+                alt="فاصوليا خضراء"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">
+                فاصوليا خضراء
+              </h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-22.html"
+              ><img
+                src="https://seifeldeendev.github.io/NubaFresh/imgs//food/22.png"
+                alt="بروكلي"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">بروكلي</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-23.html"
+              ><img
+                src="https://seifeldeendev.github.io/NubaFresh/imgs//food/23.png"
+                alt="خس جبل الجليد"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">
+                خس جبل الجليد
+              </h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-24.html"
+              ><img
+                src="https://seifeldeendev.github.io/NubaFresh/imgs//food/24.png"
+                alt="قرنبيط"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">قرنبيط</h1></a
+            >
+          </div>
+        </div>
       </div>
     </section>
 
     <footer>
-      <h1 id="footerHeaderTitle"></h1>
+      <h1 id="footerHeaderTitle">نوبة فريش، مصدرك الطبيعي والطازج.</h1>
       <a href="index.html">
         <img class="icon-logo-footer" src="imgs/n.png" alt="iconLogo" />
       </a>
-      <div class="flags">
-        <h3 id="chooseLang"></h3>
-        <div class="lastSection">
-          <a href="ar/index.html"><span class="fi fi-eg"></span></a>
-          <a href="en/index.html"><span class="fi fi-gb"></span></a>
-          <a href="de/index.html"><span class="fi fi-de"></span></a>
-          <a href="es/index.html"><span class="fi fi-es"></span></a>
-          <a href="fr/index.html"><span class="fi fi-fr"></span></a>
-          <a href="pt/index.html"><span class="fi fi-pt"></span></a>
-          <a href="ja/index.html"><span class="fi fi-jp"></span></a>
-          <a href="zh/index.html"><span class="fi fi-cn"></span></a>
-        </div>
-      </div>
     </footer>
 
     <!-- JS -->
@@ -181,9 +631,7 @@
     <script>
       AOS.init();
     </script>
-    <script>
-      let currentLanguage = "ar";
-    </script>
+
     <script src="main.js"></script>
     <!-- JS -->
   </body>

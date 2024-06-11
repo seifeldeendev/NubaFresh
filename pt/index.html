@@ -6,31 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="نوبة فريش | NubaFresh - الموقع الرائد في تصدير الفواكه والخضروات الطازجة. استكشف أفضل المنتجات الزراعية الطازجة بعناية لتلبية احتياجاتك الغذائية. نوبة فريش تضمن لك الجودة العالية والطعم الطازج مباشرة من المزرعة."
+      content="NubaFresh - O site líder na exportação de frutas e vegetais frescos. Descubra os melhores produtos agrícolas frescos cuidadosamente exportados para atender às suas necessidades alimentares. A NubaFresh garante a você alta qualidade e sabor fresco diretamente da fazenda."
     />
     <meta
       name="keywords"
-      content="NubaFresh, نوبة فريش, تصدير فواكه, تصدير خضروات, منتجات زراعية طازجة, فواكه طازجة, خضروات طازجة, جودة عالية, طعم طازج, مزرعة, تصدير, زراعة"
+      content="NubaFresh, exportação de frutas frescas, exportação de vegetais frescos, produtos agrícolas frescos, alta qualidade, sabor fresco, da fazenda para a mesa"
     />
-    <title>NubaFresh - تصدير الفواكه والخضروات الطازجة</title>
+    <title>NubaFresh - Exportação de Frutas e Vegetais Frescos</title>
     <meta
       property="og:title"
-      content="NubaFresh - تصدير الفواكه والخضروات الطازجة"
+      content="NubaFresh - Exportação de Frutas e Vegetais Frescos"
     />
     <meta
       property="og:description"
-      content="نوبة فريش | NubaFresh - الموقع الرائد في تصدير الفواكه والخضروات الطازجة. استكشف أفضل المنتجات الزراعية الطازجة بعناية لتلبية احتياجاتك الغذائية. نوبة فريش تضمن لك الجودة العالية والطعم الطازج مباشرة من المزرعة."
+      content="NubaFresh - O site líder na exportação de frutas e vegetais frescos. Descubra os melhores produtos agrícolas frescos cuidadosamente exportados para atender às suas necessidades alimentares. A NubaFresh garante a você alta qualidade e sabor fresco diretamente da fazenda."
     />
     <meta property="og:image" content="URL_to_image.jpg" />
     <meta property="og:url" content="https://www.nubafresh.com" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
-      content="NubaFresh - تصدير الفواكه والخضروات الطازجة"
+      content="NubaFresh - Exportação de Frutas e Vegetais Frescos"
     />
     <meta
       name="twitter:description"
-      content="نوبة فريش | NubaFresh - الموقع الرائد في تصدير الفواكه والخضروات الطازجة. استكشف أفضل المنتجات الزراعية الطازجة بعناية لتلبية احتياجاتك الغذائية. نوبة فريش تضمن لك الجودة العالية والطعم الطازج مباشرة من المزرعة."
+      content="NubaFresh - O site líder na exportação de frutas e vegetais frescos. Descubra os melhores produtos agrícolas frescos cuidadosamente exportados para atender às suas necessidades alimentares. A NubaFresh garante a você alta qualidade e sabor fresco diretamente da fazenda."
     />
     <meta name="twitter:image" content="URL_to_image.jpg" />
 
@@ -57,16 +57,77 @@
     <!-- CSS -->
   </head>
 
-  <body dir="rtl">
-    
+  <body dir="rtl" class="not-arabic">
+    <span class="scroll-up"><i class="fad fa-angle-double-up"></i></span>
+    <div class="language-selector">
+      <div class="continer">
+        <span class="language-text" id="chooseLang"
+          >Escolha seu idioma preferido</span
+        >
+        <div class="flags">
+          <a href="../ar/"><span class="fi fi-eg"></span></a>
+          <a href="../en/"><span class="fi fi-gb"></span></a>
+          <a href="../es/"><span class="fi fi-es"></span></a>
+          <a href="../de/"><span class="fi fi-de"></span></a>
+          <a href="../it/"><span class="fi fi-it"></span></a>
+          <a href="../fr/"><span class="fi fi-fr"></span></a>
+          <a href="../pt/"><span class="fi fi-pt"></span></a>
+        </div>
+      </div>
+    </div>
     <header>
       <div class="continer">
         <div class="header-content">
           <a href="index.html">
-            <img src="../imgs/nubalogo.png" alt="logo"
-          /></a>
+            <img class="logo" src="../imgs/nubalogo.png" alt="logo" />
+          </a>
           <nav class="normal-nav">
-            <ul id="normal-nav-ul"></ul>
+            <ul id="normal-nav-ul">
+              <li><a id="hyperLink" href="about.html">Sobre Nós</a></li>
+              <li class="dropdown">
+                <a id="hyperLink" href="#"
+                  >Nossos Produtos
+                  <img
+                    style="transform: rotate(270deg); margin-left: 5px"
+                    src="../imgs/left-arrow.png"
+                    alt="left-arrow"
+                    height="10px"
+                    width="10px"
+                /></a>
+                <ul class="dropdown-content">
+                  <li><a href="citrus.html">Cítricos</a></li>
+                  <li><a href="fruits.html">Frutas</a></li>
+                  <li><a href="vegetables.html">Vegetais</a></li>
+                  <li><a href="herbs.html">Ervas</a></li>
+                </ul>
+              </li>
+              <li><a id="hyperLink" href="calendar.html">Calendário</a></li>
+              <li class="dropdown">
+                <a id="hyperLink" href="#"
+                  >Garantia de Qualidade
+                  <img
+                  style="transform: rotate(270deg); margin-left: 5px"
+                  src="../imgs/left-arrow.png"
+                  alt="left-arrow"
+                  height="10px"
+                  width="10px"
+              /></a>
+              <ul class="dropdown-content">
+                  <li><a href="certification.html">Certificação</a></li>
+                  <li><a href="pesticide-management.html">Gestão de Pesticidas</a></li>
+                  <li><a href="traceability.html">Rastreabilidade</a></li>
+                  <li><a href="social-responsibilities.html">Responsabilidades Sociais</a></li>
+                </ul>
+              </li>
+              <li>
+                <a id="hyperLink" href="packing-house.html"
+                  >Casa de Embalagem</a
+                >
+              </li>
+              <li><a id="hyperLink" href="gallery.html">Galeria</a></li>
+              <li><a id="hyperLink" href="markets.html">Mercados</a></li>
+              <li><a id="hyperLink" href="contact.html">Contate-Nos</a></li>
+            </ul>
           </nav>
           <span class="toogle-i"><i class="fas fa-bars"></i></span>
         </div>
@@ -75,10 +136,53 @@
 
     <div class="phone-list">
       <span class="close-x"><i class="fas fa-times"></i></span>
-      <nav class="nav-phone" id="nav-phone-ul"></nav>
+      <nav class="nav-phone" id="nav-phone-ul">
+        <li><a id="hyperLink" href="about.html">Sobre Nós</a></li>
+        <li class="dropdown">
+          <a id="hyperLink" href="#"
+            >Nossos Produtos
+            <img
+              style="transform: rotate(270deg); margin-left: 5px"
+              src="../imgs/left-arrow.png"
+              alt="left-arrow"
+              height="10px"
+              width="10px"
+          /></a>
+          <ul class="dropdown-content">
+            <li><a href="citrus.html">Cítricos</a></li>
+            <li><a href="fruits.html">Frutas</a></li>
+            <li><a href="vegetables.html">Vegetais</a></li>
+            <li><a href="herbs.html">Ervas</a></li>
+          </ul>
+        </li>
+        <li><a id="hyperLink" href="calendar.html">Calendário</a></li>
+        <li class="dropdown">
+          <a id="hyperLink" href="#"
+            >Garantia de Qualidade
+            <img
+            style="transform: rotate(270deg); margin-left: 5px"
+            src="../imgs/left-arrow.png"
+            alt="left-arrow"
+            height="10px"
+            width="10px"
+        /></a>
+        <ul class="dropdown-content">
+                  <li><a href="certification.html">Certificação</a></li>
+                  <li><a href="pesticide-management.html">Gestão de Pesticidas</a></li>
+                  <li><a href="traceability.html">Rastreabilidade</a></li>
+                  <li><a href="social-responsibilities.html">Responsabilidades Sociais</a></li>
+          </ul>
+        </li>
+        <li>
+          <a id="hyperLink" href="packing-house.html">Casa de Embalagem</a>
+        </li>
+        <li><a id="hyperLink" href="gallery.html">Galeria</a></li>
+        <li><a id="hyperLink" href="markets.html">Mercados</a></li>
+        <li><a id="hyperLink" href="contact.html">Contate-Nos</a></li>
+      </nav>
     </div>
     <main class="z-section">
-      <span class="shape sh1"></span>
+      <span class="shape sh1 sh1-non-arabic"></span>
       <div class="continer">
         <div class="main-contant">
           <div class="app-main-sec">
@@ -101,7 +205,7 @@
 
               <img
                 alt="phone app"
-                class="mobile-img"
+                class="mobile-img mobile-img-non-arabic"
                 id="mobile-img"
                 src="../imgs/phone.png"
                 alt="app-phone"
@@ -119,79 +223,497 @@
             </div>
           </div>
           <div class="main-text">
-            <h1
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              id="main-text-h1"
-            ></h1>
-            <p data-aos="fade-up" data-aos-duration="1200" id="main-text-p"></p>
+            <h1 data-aos="fade-up" data-aos-duration="1000" id="main-text-h1">
+              Nuba Fresh: Produtos Naturais para um Estilo de Vida Saudável
+            </h1>
+            <p data-aos="fade-up" data-aos-duration="1200" id="main-text-p">
+              Nós sempre nos esforçamos para alcançar os padrões de qualidade
+              mais elevados nos serviços que prestamos
+            </p>
           </div>
         </div>
       </div>
     </main>
-
-    <!-- <section class="fsection z-section"> -->
     <div class="video-slider" id="video-slider">
-      <div id="next" onclick="next()">
-        <img
-          src="../imgs/left-arrow.png"
-          alt="left-arrow"
-          height="30px"
-          width="30px"
-        />
+      <div class="slide-container active">
+        <div class="slide">
+          <video
+            src="https://c.top4top.io/m_3078iebg53.mp4"
+            height="30%"
+            width="100%"
+            muted
+            autoplay
+            loop
+          ></video>
+          <div class="content">
+            <p>Alimentos Seguros, Melhor Saúde e Vida</p>
+          </div>
+        </div>
       </div>
-      <div id="prev" onclick="prev()">
-        <img
-          src="../imgs/right-arrow.png"
-          alt="right-arrow"
-          height="30px"
-          width="30px"
-        />
+      <div class="slide-container">
+        <div class="slide">
+          <video
+            src="https://a.top4top.io/m_3078rbdui1.mp4"
+            height="30%"
+            width="100%"
+            muted
+            autoplay
+            loop
+          ></video>
+          <div class="content">
+            <p>Qualidade é nosso objetivo e preocupação primária</p>
+          </div>
+        </div>
+      </div>
+      <div class="slide-container">
+        <div class="slide">
+          <video
+            src="https://d.top4top.io/m_3078q9uqn4.mp4"
+            height="30%"
+            width="100%"
+            muted
+            autoplay
+            loop
+          ></video>
+          <div class="content">
+            <p>Produzido naturalmente em nossas fazendas</p>
+          </div>
+        </div>
+      </div>
+      <div class="slide-container">
+        <div class="slide">
+          <video
+            src="https://e.top4top.io/m_3078paitu5.mp4"
+            height="30%"
+            width="100%"
+            muted
+            autoplay
+            loop
+          ></video>
+          <div class="content">
+            <p>Produzido naturalmente em nossas fazendas</p>
+          </div>
+        </div>
       </div>
     </div>
     <section class="fsection z-section">
-      <span class="shape sh3"></span>
+      <span class="shape sh3 sh3-non-arabic"></span>
       <div class="continer">
-        <div class="features" id="features"></div>
+        <div class="features" id="features">
+          <div
+            class="features-card"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <img
+              src="../imgs/icons/supplies.png"
+              alt="Produtos 100% naturais"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            />
+            <h1 data-aos="fade-up" data-aos-duration="1300">
+              Produtos 100% naturais
+            </h1>
+            <p data-aos="fade-up" data-aos-duration="1400">
+              Todas as nossas frutas e legumes frescos na Nuba Fresh são
+              produtos 100% naturais.
+            </p>
+          </div>
+          <div
+            class="features-card"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <img
+              src="../imgs/icons/high-quality.png"
+              alt="Sempre os melhores produtos de qualidade"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            />
+            <h1 data-aos="fade-up" data-aos-duration="1300">
+              Sempre os melhores produtos de qualidade
+            </h1>
+            <p data-aos="fade-up" data-aos-duration="1400">
+              Comprometemo-nos a fornecer sempre os melhores produtos de
+              qualidade aos nossos clientes.
+            </p>
+          </div>
+          <div
+            class="features-card"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <img
+              src="../imgs/icons/search.png"
+              alt="Embalagem e transporte"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            />
+            <h1 data-aos="fade-up" data-aos-duration="1300">
+              Embalagem e transporte
+            </h1>
+            <p data-aos="fade-up" data-aos-duration="1400">
+              A embalagem, acondicionamento e transporte seguem os procedimentos
+              e condições especificados pelos padrões internacionais de
+              qualidade e higiene.
+            </p>
+          </div>
+          <div
+            class="features-card"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <img
+              src="../imgs/icons/food.png"
+              alt="Alimentos não transgênicos"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            />
+            <h1 data-aos="fade-up" data-aos-duration="1300">
+              Alimentos não transgênicos
+            </h1>
+            <p data-aos="fade-up" data-aos-duration="1400">
+              Confirmamos que nenhum dos produtos frescos da NubaFresh contém
+              material genético que tenha sido manipulado artificialmente em
+              laboratórios através da engenharia genética.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
 
     <section class="fsection z-section">
-      <span class="shape sh3"></span>
-      <div class="foods-header-text"><h1 id="SeconedSectionTitle"></h1></div>
+      <div class="foods-header-text">
+        <h1 id="SeconedSectionTitle">Nossos Produtos</h1>
+      </div>
       <div class="continer">
-        <div class="Foods" id="Foods"></div>
+        <div class="Foods" id="Foods">
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-1.html"
+              ><img
+                src="../imgs/food/1.png"
+                alt="Laranja Navel"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">
+                Laranja Navel
+              </h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-2.html"
+              ><img
+                src="../imgs/food/2.png"
+                alt="Laranja Valencia"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">
+                Laranja Valencia
+              </h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-3.html"
+              ><img
+                src="../imgs/food/3.png"
+                alt="Mandarina"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">Mandarina</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-4.html"
+              ><img
+                src="../imgs/food/4.png"
+                alt="Toranja"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">Toranja</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-5.html"
+              ><img
+                src="../imgs/food/5.png"
+                alt="Romã"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">Romã</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-6.html"
+              ><img
+                src="../imgs/food/6.png"
+                alt="Morango"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">Morango</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-7.html"
+              ><img
+                src="../imgs/food/7.png"
+                alt="Limão"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">Limão</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-8.html"
+              ><img
+                src="../imgs/food/8.png"
+                alt="Manga"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">Manga</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-9.html"
+              ><img
+                src="../imgs/food/9.png"
+                alt="Pêssego"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">Pêssego</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-10.html"
+              ><img
+                src="../imgs/food/10.png"
+                alt="Uva Red Globe"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">
+                Uva Red Globe
+              </h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-11.html"
+              ><img
+                src="../imgs/food/11.png"
+                alt="Uva Branca sem Sementes"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">
+                Uva Branca sem Sementes
+              </h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-12.html"
+              ><img
+                src="../imgs/food/12.png"
+                alt="Uva Preta"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">Uva Preta</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-13.html"
+              ><img
+                src="../imgs/food/13.png"
+                alt="Uva Flame"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">Uva Flame</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-14.html"
+              ><img
+                src="../imgs/food/14.png"
+                alt="Uva Vermelha sem Sementes"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">
+                Uva Vermelha sem Sementes
+              </h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-15.html"
+              ><img
+                src="../imgs/food/15.png"
+                alt="Batata"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">Batata</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-16.html"
+              ><img
+                src="../imgs/food/16.png"
+                alt="Pimenta"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">Pimenta</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-17.html"
+              ><img
+                src="../imgs/food/17.png"
+                alt="Batata Doce"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">
+                Batata Doce
+              </h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-18.html"
+              ><img
+                src="../imgs/food/18.png"
+                alt="Alho Seco"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">Alho Seco</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-19.html"
+              ><img
+                src="../imgs/food/19.png"
+                alt="Cebola Vermelha e Dourada"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">
+                Cebola Vermelha e Dourada
+              </h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-20.html"
+              ><img
+                src="../imgs/food/20.png"
+                alt="Alcachofra"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">Alcachofra</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-21.html"
+              ><img
+                src="../imgs/food/21.png"
+                alt="Feijão Verde"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">
+                Feijão Verde
+              </h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-22.html"
+              ><img
+                src="../imgs/food/22.png"
+                alt="Brócolis"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">Brócolis</h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-23.html"
+              ><img
+                src="../imgs/food/23.png"
+                alt="Alface Iceberg"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">
+                Alface Iceberg
+              </h1></a
+            >
+          </div>
+          <div class="Food-Card" data-aos="fade-up" data-aos-duration="1000">
+            <a href="product-page-24.html"
+              ><img
+                src="../imgs/food/24.png"
+                alt="Couve-Flor"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              />
+              <h1 data-aos="fade-up" data-aos-duration="1200">Couve-Flor</h1></a
+            >
+          </div>
+        </div>
       </div>
     </section>
 
-    <footer>
-      <h1 id="footerHeaderTitle"></h1>
-      <a href="index.html">
-        <img class="icon-logo-footer" src="../imgs/n.png" alt="iconLogo" />
-      </a>
-      <div class="flags">
-        <h3 id="chooseLang"></h3>
-        <div class="lastSection">
-        <a href="../ar/index.html"><span class="fi fi-eg"></span></a>
-        <a href="../en/index.html"><span class="fi fi-gb"></span></a>
-        <a href="../de/index.html"><span class="fi fi-de"></span></a>
-        <a href="../es/index.html"><span class="fi fi-es"></span></a>
-        <a href="../fr/index.html"><span class="fi fi-fr"></span></a>
-        <a href="../pt/index.html"><span class="fi fi-pt"></span></a>
-        <a href="../ja/index.html"><span class="fi fi-jp"></span></a>
-        <a href="../zh/index.html"><span class="fi fi-cn"></span></a>
+    <section class="footer">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>Riguardo l'azienda</h4>
+          <p>
+            Un'azienda egiziana specializzata nella produzione e esportazione di frutta e verdura fresca.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Menu del sito web</h4>
+          <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="markets.html">Mercati</a></li>
+            <li><a href="contact.html">Contatto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Feedback</h4>
+          <p>Ci piacerebbe conoscere la tua opinione sul nostro sito web o sui nostri prodotti.</p>
+          <ul class="links">
+            <li><a href="#">Invia i tuoi commenti</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contattaci</h4>
+          <ul class="links">
+            <li><a dir="ltr" href="#">Mobile / WhatsApp: +20 155 0087 004</a></li>
+            <li><a href="mailto:info@nubafresh-eg.com">Email: info@nubafresh-eg.com</a></li>
+            <li><a href="https://nubafresh-eg.com">Il nostro sito web: nubafresh-eg.com</a></li>
+          </ul>
         </div>
       </div>
-    </footer>
+    </section>
 
     <!-- JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
-    <script>
-      let currentLanguage = "pt";
-    </script>
+
     <script src="../main.js"></script>
     <!-- JS -->
   </body>
